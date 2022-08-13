@@ -28,13 +28,39 @@
                 <a href="tel:+79034824521">+7 903 482-45-21</a>
             </div>
             <div class="header__burger">
-                <img src="./images/burger.svg" alt="">
+                <img src="./images/burger.svg" alt=""
+                     onclick="clickBurger()">
             </div>
         </div>
     </div>
 </header>
 
+<div class="banner">
+    <img class="banner__bg"
+         src="./images/banner-bg.png" alt="">
+    <div class="container">
+        <div class="banner__content">
+            <h1>юридические <br> услуги <br> в Липецке</h1>
+            <h2>Наши опыт и знания — <br> решение ваших проблем</h2>
+            <button class="banner__button">
+                <span>Оставить заявку</span>
+                <img src="./images/arrow.svg" alt="">
+                <i></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<div id="drawer" class="drawer">
+    <div class="drawer__header">
+        <img src="./images/close.svg" alt=""
+             onclick="clickCloseDrawer()">
+    </div>
+</div>
+
 <script src="js/header.js"></script>
+<script src="js/drawer.js"></script>
 
 </body>
 </html>

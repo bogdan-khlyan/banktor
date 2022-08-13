@@ -1,0 +1,12 @@
+.drawer {
+  position: absolute;
+  top: 0;
+  right: -380px;
+
+  width: 380px;
+  height: 100vh;
+  background-color: #151316;
+  z-index: 101;
+
+  transition: 600ms;
+}
